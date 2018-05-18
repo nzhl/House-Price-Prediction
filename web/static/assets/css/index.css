@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    width: 100%;
+    height: 100px;;
+    background: darkcyan;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 40px auto;
+    border: 1px solid #999;
+    background-color: lightgreen;
+}
+
+.tabs_radio {
+    display: none;
+}
+
+ .tabs_label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.tabs_radio:nth-of-type(1):checked~.tabs_label:nth-of-type(1) {
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
+    font-weight: bold;
+}
+.tabs_radio:nth-of-type(1):checked~.tab:nth-of-type(1) {
+    display: block;
+}
+.tabs_radio:nth-of-type(2):checked~.tabs_label:nth-of-type(2) {
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
+    font-weight: bold;
+}
+.tabs_radio:nth-of-type(2):checked~.tab:nth-of-type(2) {
+    display: block;
+}
+.tabs_radio:nth-of-type(3):checked~.tabs_label:nth-of-type(3) {
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
+    font-weight: bold;
+}
+.tabs_radio:nth-of-type(3):checked~.tab:nth-of-type(3) {
+    display: block;
+}
+.tabs_radio:nth-of-type(4):checked~.tabs_label:nth-of-type(4) {
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
+    font-weight: bold;
+}
+.tabs_radio:nth-of-type(4):checked~.tab:nth-of-type(4) {
+    display: block;
+}
+
+.tab {
+    width: 1200px;
+    height: 1000px; 
+    display: none;
+    background-color: #fff;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+#heatmap {
+    width: 100%;
+    height: 100%;
+}
+
+
+#predict_url {
+    position: relative;
+    top: 30px;
+    left: 50%;
+    width: 350px;
+    height: 48px;;
+    margin-left: -175px;
+    padding-left: 50px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 25px;
+    outline: none;
+}
+
+#predict_btn {
+    position: relative;
+    left: 50%;
+    top: -8px;
+    margin-left: -160px;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background: url('../images/search.png') no-repeat;
+    background-size: 25px 25px;
+    outline: none;
+    z-index: 2;
+}
+
+#info_div {
+    display: none;
+}
+
+#predict_result {
+    padding: 50px;
+}
+
+#radar_div {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#explanation_tab {
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nottingham House Prediction</title>
+    <link href="assets/css/index.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <div class="nav">
+      <h1>House Prediction In Nottingham Demo</h2>
+    </div>
+
+
+    <div class="wrapper">
+      <input checked="checked" id="map_tab_radio" class="tabs_radio" type="radio" name="tabs_radio">
+      <!-- <input id="heatmap_tab_radio" class="tabs_radio" type="radio" name="tabs_radio"> -->
+      <input id="prediction_tab_radio" class="tabs_radio" type="radio" name="tabs_radio">
+      <input id="explanation_tab_radio" class="tabs_radio" type="radio" name="tabs_radio">
+      <label for="map_tab_radio" class="tabs_label">House Price Map</label>
+      <!-- <label for="heatmap_tab_radio" class="tabs_label"> Heat Map</label> -->
+      <label for="prediction_tab_radio" class="tabs_label">Online Prediction</label>
+      <label for="explanation_tab_radio" class="tabs_label">How it works</label>
+
+      <div id="map_tab" class="tab">
+        <div id="map"></div>
+      </div>
+
+      <!-- <div id="heatmap_tab" class="tab">
+        <div id="heatmap"></div>
+      </div> -->
+
+      <div id="prediction_tab" class="tab">
+        <input type="text" required=required id="predict_url" placeholder="House ID e.g. 47544018" />
+        <button id="predict_btn"></button>
+        <div id="info_div">
+          <h3 id="predict_result"> </h3>
+          <div id="radar_div" ></div>
+        </div>
+      </div>
+
+      <div id="explanation_tab" class="tab">
+        <!-- <img src="assets/images/structure.png" > -->
+        <iframe src="//slides.com/frednzhl/deck/embed" width="1200" height="1000" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="assets/js/echarts.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArsHRDCWNgJErUarMGTxJGdhWwmLCpr10&libraries=visualization&callback=initMap"></script>
+    </script>
+    </body>
+    
+    </html>

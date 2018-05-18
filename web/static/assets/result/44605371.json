@@ -1,0 +1,3 @@
+[
+{"price": 190000.0, "house_id": "44605371", "postcode": "ng8 1pu", "property_type": "detached", "num_of_bathrooms": 1.0, "num_of_bedrooms": 3.0, "num_of_receptions": null, "overall_rating": 78.0, "cs_rating": 70.0, "en_rating": 80.0, "pr_rating": 80.0, "rs_rating": 80.0, "sp_rating": 80.0, "tt_rating": 80.0, "demographic": [17.67, 23.28, 16.08, 11.66, 11.23, 8.53, 11.55], "education": [76.0, 18.0, 50.9, 86.6, 94.7], "crime": [46.86, 9.08, 13.75, 4.88, 7.81, 1.87, 36.22, 8.52], "counciltax": [1234.0, 1440.0, 1646.0, 1852.0, 2263.0, 2675.0, 3086.0, 3703.0], "housing": [null], "employment": [null], "family": [null], "newspapers": [null], "interests": [null]}
+]
